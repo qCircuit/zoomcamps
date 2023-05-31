@@ -1,0 +1,124 @@
+{
+    "os": "Linux-5.19.0-41-generic-x86_64-with-glibc2.35",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-05-31T13:02:59.764119",
+    "startedAt": "2023-05-31T13:02:58.568216",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--project",
+        "taxi",
+        "--entity",
+        "tensorflowq",
+        "--data_artifact",
+        "tensorflowq/taxi/Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/home/hilbert/zoomcamps/weights_biases/train.py",
+    "codePath": "weights_biases/train.py",
+    "git": {
+        "remote": "https://github.com/qCircuit/zoomcamps",
+        "commit": "81d239d43974cb0ac0007140a0abc1eb15e57c05"
+    },
+    "email": "tensorflowq@gmail.com",
+    "root": "/home/hilbert/zoomcamps",
+    "host": "qCircuit",
+    "username": "hilbert",
+    "executable": "/home/hilbert/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1662.5909375,
+        "min": 800.0,
+        "max": 5300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 800.236,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.161,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3100.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.229,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.008,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3100.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.153,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.027,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.016,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.568,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3100.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3100.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.049,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 800.008,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3100.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3100.0,
+            "min": 800.0,
+            "max": 5300.0
+        }
+    ],
+    "disk": {
+        "total": 467.8895797729492,
+        "used": 87.97043228149414
+    },
+    "memory": {
+        "total": 31.172454833984375
+    }
+}
