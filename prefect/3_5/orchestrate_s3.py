@@ -122,8 +122,8 @@ def main_flow_s3():
         )
 
     if True:
-        dftr = read_dataframe(f"{DATA_PATH}{DATASET}_tripdata_2022-01.parquet")
-        dfvl = read_dataframe(f"{DATA_PATH}{DATASET}_tripdata_2022-02.parquet")
+        dftr = read_dataframe(f"{DATA_PATH}{DATASET}_tripdata_2022-02.parquet")
+        dfvl = read_dataframe(f"{DATA_PATH}{DATASET}_tripdata_2022-03.parquet")
 
     xtr, xvl, ytr, yvl, dv = add_features(dftr, dfvl)
     train_best_model(xtr, xvl, ytr, yvl, dv)
